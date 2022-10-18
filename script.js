@@ -30,4 +30,12 @@ function relogio (){
 
 let time = setInterval(relogio,1000)
 
+// troca de style
+
+function mudarTemaBody()
+{
+    let element = document.body;
+    element.classList.toggle("fundo");
+}
+
 

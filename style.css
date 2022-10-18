@@ -8,6 +8,18 @@ body{
     background-color: #0D0D0D;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #262626 solid 1px;
+    padding: 8px;
+    color: #F2F2F2;
+    border-radius: 20px;
+    background-color: #262626;
+    margin: 0 50px;
+}
+
 .container-hora{
     display: flex;
     justify-content: space-between;
@@ -35,22 +47,22 @@ body{
     margin: 15px 620px;
     font-size: 1.5rem;
     font-weight: 600;
+    border-bottom: #F2F2F2 solid 1px;
 }
 
-hr{
-    width: 160px;
-    margin: 5px 600px;
+input{
+    margin: 0 50px;
+    padding: 8px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    background-color: lightgray;
+    font-weight: 600;
 }
 
-footer{
-    background: #262626;
-    margin-top: 70px;
-    padding:3px;
+/* outro tema */
+
+.fundo{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e)
 }
 
-footer p {
-    color: #F2F2F2;
-    text-align:center;
-    font-weight: 200;
-    font-size: 12px;
-}
